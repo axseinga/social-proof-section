@@ -1,0 +1,22 @@
+{
+  "name": "social-proof-section-master",
+  "version": "1.0.0",
+  "description": "Challenge from Frontend Mentor",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/sass.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/axseinga/social-proof-section.git"
+  },
+  "author": "Agnieszka Urbanowicz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/axseinga/social-proof-section/issues"
+  },
+  "homepage": "https://github.com/axseinga/social-proof-section#readme",
+  "devDependencies": {
+    "node-sass": "^6.0.0"
+  }
+}

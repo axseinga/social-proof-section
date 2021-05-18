@@ -1,0 +1,23 @@
+////////// Variables //////////
+
+// Colors
+
+$color-primary-dark: hsl(300, 43%, 22%);
+$color-primary-light: hsl(333, 80%, 67%);
+$color-grey-dark: hsl(303, 10%, 53%);
+$color-grey-light: hsl(300, 24%, 96%);
+$color-white: hsl(0, 0%, 100%);
+
+// Fonts
+
+$font-primary: "Spartan", sans-serif;
+
+//////////// Styles ///////////
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
