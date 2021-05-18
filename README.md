@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/axseinga/social-proof-section)
-- Live Site URL: [Add live site URL here](https://axseinga.github.io/social-proof-section)
+- [Check my solution](https://github.com/axseinga/social-proof-section)
+- [Check Site Live](https://axseinga.github.io/social-proof-section)
 
 ## My process
 
@@ -54,4 +54,4 @@ I tried to complete this challenge not longer than a month ago and fail complete
 ## Author
 
 - Github - [Axseinga](https://github.com/axseinga)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/axseinga)
+- Frontend Mentor - [@axseinga](https://www.frontendmentor.io/profile/axseinga)
