@@ -12,6 +12,10 @@ $color-white: hsl(0, 0%, 100%);
 
 $font-primary: "Spartan", sans-serif;
 
+// Breakpoints
+
+$bp-large: 62.5rem;
+
 //////////// Styles ///////////
 
 *,
@@ -34,6 +38,13 @@ body {
     url(../images/bg-pattern-bottom-mobile.svg);
   background-repeat: no-repeat;
   background-position: top left, bottom right;
+
+  @media only screen and (min-width: $bp-large) {
+    background: url(../images/bg-pattern-top-desktop.svg),
+      url(../images/bg-pattern-bottom-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+  }
 }
 
 .component {
@@ -43,6 +54,10 @@ body {
   align-items: center;
 
   padding: 3rem;
+
+  @media only screen and (min-width: $bp-large) {
+    padding: 12rem 2rem 6rem 2rem;
+  }
 }
 
 .container--1 {
@@ -52,16 +67,34 @@ body {
   justify-content: center;
 
   text-align: center;
+
+  @media only screen and (min-width: $bp-large) {
+    flex-direction: row;
+    width: 950px;
+    justify-content: space-between;
+  }
 }
 
 .heading {
   padding: 1rem;
+
+  max-width: 500px;
+
+  @media only screen and (min-width: $bp-large) {
+    text-align: left;
+  }
 
   &--primary {
     font-size: 2.5rem;
     font-weight: 700;
 
     padding: 1rem;
+
+    @media only screen and (min-width: $bp-large) {
+      font-size: 4rem;
+      padding: 0;
+      margin-right: 6rem;
+    }
   }
 
   &--secondary {
@@ -69,10 +102,19 @@ body {
     font-weight: 400;
 
     margin-top: 1rem;
+
+    @media only screen and (min-width: $bp-large) {
+      font-size: 1.5rem;
+    }
   }
 }
 
 .rates {
+  @media only screen and (min-width: $bp-large) {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+  }
   &__wrapper {
     height: 50px;
     width: 295px;
@@ -87,13 +129,27 @@ body {
     flex-direction: column;
     justify-content: center;
 
+    @media only screen and (min-width: $bp-large) {
+      width: 360px;
+      flex-direction: row;
+      justify-content: space-evenly;
+      padding: 1rem 3rem;
+      align-items: center;
+    }
+
     &__stars {
+      @media only screen and (min-width: $bp-large) {
+        align-self: center;
+      }
       &--star {
         padding: 0 0.3rem;
       }
     }
 
     &__text {
+      @media only screen and (min-width: $bp-large) {
+        align-self: center;
+      }
       &--description {
         margin-top: 0.5rem;
         font-weight: 700;
@@ -102,10 +158,36 @@ body {
   }
 }
 
+.rate--1 {
+  @media only screen and (min-width: $bp-large) {
+    align-self: flex-start;
+  }
+}
+
+.rate--2 {
+  @media only screen and (min-width: $bp-large) {
+    align-self: center;
+  }
+}
+
+.rate--3 {
+  @media only screen and (min-width: $bp-large) {
+    align-self: flex-end;
+  }
+}
+
 .container--2 {
   display: flex;
   flex-direction: column;
   justify-content: center;
+
+  @media only screen and (min-width: $bp-large) {
+    flex-direction: row;
+    justify-content: center;
+    height: 250px;
+
+    margin-top: 5rem;
+  }
 }
 
 .review {
@@ -154,6 +236,24 @@ body {
     font-size: 1.1rem;
 
     padding: 1.5rem 1rem 0 0;
+  }
+}
+
+.review--1 {
+  @media only screen and (min-width: $bp-large) {
+    align-self: flex-start;
+  }
+}
+
+.review--2 {
+  @media only screen and (min-width: $bp-large) {
+    align-self: center;
+  }
+}
+
+.review--3 {
+  @media only screen and (min-width: $bp-large) {
+    align-self: flex-end;
   }
 }
 
